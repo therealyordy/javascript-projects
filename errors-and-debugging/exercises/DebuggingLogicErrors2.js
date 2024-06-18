@@ -8,6 +8,7 @@ let launchReady = false;
 let fuelLevel = 17000;
 // let crewStatus = true;
 // let computerStatus = 'green';
+console.log(launchReady)
 
 if (fuelLevel >= 20000) {
    console.log('Fuel level cleared.');
