@@ -55,3 +55,27 @@ console.log("Hold status: " + holdStatus(cargoHold));
 
 //c). Use a template literal to return, "Raided _____ kg of fuel from the tanks, and stole ____ and ____ from the cargo hold."
 
+let nonSuspiciousFunction = function(a) {
+
+}
+
+let nonSuspiciousFunction = function(a) {
+  if (checkFuel(a) === 'green') {
+     return a - 100001;
+  }
+  else if (checkFuel(a) === 'yellow') {
+     return a - 50001;
+  }
+  else {
+     return a;
+  }
+};
+
+let irs = function(levelOfFuel, itemsInCargo) {
+
+}
+
+let irs = function(levelOfFuel, itemsInCargo {
+  let arr = deckMops(itemsInCargo);
+  return `Raided ${nonSuspiciousFunction(fuelLevel)} kg of fuel from the tanks, and stole ${arr[0]} and ${arr[1]} from the cargo hold.`
+}
